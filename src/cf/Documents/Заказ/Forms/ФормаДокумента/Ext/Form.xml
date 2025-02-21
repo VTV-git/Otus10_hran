@@ -107,6 +107,12 @@
 							<ContextMenu name="ДатаКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="ДатаExtendedTooltip" id="55"/>
 						</InputField>
+						<InputField name="Комментарий" id="122">
+							<DataPath>Объект.Комментарий</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="123"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="124"/>
+						</InputField>
 						<InputField name="Организация" id="37">
 							<DataPath>Объект.Организация</DataPath>
 							<Width>30</Width>
