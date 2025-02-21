@@ -28,6 +28,12 @@
 			<ContextMenu name="ВалютныйУчет_КонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="ВалютныйУчетExtendedTooltip" id="9"/>
 		</CheckBoxField>
+		<InputField name="Адрес" id="10">
+			<DataPath>Объект.Адрес</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="АдресКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="12"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
