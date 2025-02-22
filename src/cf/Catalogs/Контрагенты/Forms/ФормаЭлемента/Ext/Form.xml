@@ -186,6 +186,12 @@
 							<ContextMenu name="РодительКонтекстноеМеню" id="22"/>
 							<ExtendedTooltip name="РодительExtendedTooltip" id="45"/>
 						</InputField>
+						<CheckBoxField name="ПостоянныйПокупатель" id="118">
+							<DataPath>Объект.ПостоянныйПокупатель</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПостоянныйПокупательКонтекстноеМеню" id="119"/>
+							<ExtendedTooltip name="ПостоянныйПокупательРасширеннаяПодсказка" id="120"/>
+						</CheckBoxField>
 						<UsualGroup name="ГруппаВидЦенИНовыйРасчетныйСчет" id="78">
 							<Title>
 								<v8:item>
